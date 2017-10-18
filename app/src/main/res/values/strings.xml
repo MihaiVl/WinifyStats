@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Winistics</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This username is invalid</string>
+    <string name="geofence_transition_entered">You entered Geofence</string>
+    <string name="geofence_transition_exited">You exited Geofence</string>
+    <string name="unknown_geofence_transition">Unknown Geofence Transition</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing username
+        completions."
+    </string>
+    <string name="username_saving">Save Username</string>
+    <string name="password_saving">Save Password</string>
+    <string name="guest_user">Continue as Guest</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.android.winifystats.MainActivity">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+       android:orientation="vertical"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:background="@color/colorPrimary"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <az.plainpie.PieView
+            android:id="@+id/pieView"
+            android:layout_margin="16dp"
+            android:layout_width="172dp"
+            android:layout_height="172dp"
+            app:inner_pie_padding="30"
+            app:percentage="1"
+            app:inner_text="00:00:00"
+
+            app:percentage_size="25"
+            app:inner_text_visibility="true"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="16dp"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/weekly"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="24dp"/>
+            <TextView
+                android:id="@+id/monthly"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="24dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/timer_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/round_button_start"
+        android:textColor="@color/white"
+        android:text="Start Timer"
+        android:layout_gravity="bottom" />
+</LinearLayout>
